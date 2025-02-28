@@ -20,9 +20,6 @@ The calculator is implemented in Java using **Java Swing** for the graphical use
 ## Project Structure
 Calculator.java
 - Holds all of the source code
-
-Main.java
-- Create a new instance of `Calculator`
   
 README
 - Contains project documentation
