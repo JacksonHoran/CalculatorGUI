@@ -7,13 +7,13 @@ import javax.swing.*;
 
 public class Calculator extends JFrame implements ActionListener{
 	
-		private static final long serialVersionUID = -3250237899172046593L;
-		static double a, b, result;
-		static String string, string1, string2;
-		static String[] parts = new String[2];
-		JButton b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, bAdd, bSub, bMul, bDiv, bEnter, bPer, bCler;
-		JTextField field;
-		DecimalFormat format = new DecimalFormat("0.#");
+	private static final long serialVersionUID = -3250237899172046593L;
+	static double a, b, result;
+	static String string, string1, string2;
+	static String[] parts = new String[2];
+	JButton b0, b1, b2, b3, b4, b5, b6, b7, b8, b9, bAdd, bSub, bMul, bDiv, bEnter, bPer, bCler;
+	JTextField field;
+	DecimalFormat format = new DecimalFormat("0.#");
 		
 	Calculator(){
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
